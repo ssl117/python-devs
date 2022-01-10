@@ -1,0 +1,23 @@
+word = 'thesun'
+arr_word = []
+
+for x in word:
+	arr_word.append(x)
+
+length = len(arr_word)
+
+new_word = ''
+
+for k in arr_word:
+	new_word = new_word + k
+	print(new_word)
+
+last_word = ''
+
+for i in arr_word:
+	arr_word.pop()
+	last_word = ''
+	for j in arr_word:
+		last_word = last_word + j
+	print(last_word)
+	print(arr_word)
