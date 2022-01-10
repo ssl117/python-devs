@@ -1,0 +1,7 @@
+# VERSION 1
+
+When you first run it, you have to choose which face detection mode, you can try all five of them.
+
+This Script starts your webcam and you can draw a rectangle around your face, 
+then press Esc and it will follow your face (green rectangle).
+

@@ -1,0 +1,14 @@
+# VERSION 1
+
+This file does two things:
+
+- First: it changes all names of the JPEG files to "Image 1", "Image 2", "Image X"...for X files in folder.
+
+- Second: it creates two more JPEG files in that folder for each picture:
+
+	- black & white high quality, less size.
+	- RGB high quality, less size.
+
+(These new files are called "image-X-low" and "image-X-gray")
+
+In the future I will add the option to choose the origin and output file paths.
